@@ -1,0 +1,48 @@
+img{
+      border: 0.5px solid transparent;
+      
+}
+.row{
+      color:white;
+      margin:20px;
+      
+}
+
+.row__posters{
+      overflow-y: hidden;
+      overflow-x: scroll;
+      display:flex;
+      padding:20px;
+      cursor: pointer;
+      
+}
+
+/*hiding the scroll bar below every row*/
+.row__posters::-webkit-scrollbar{
+      display:none;
+}
+
+.row__poster{
+      max-height: 195px;
+      object-fit: contain;
+      margin-right: 5px;
+      width: 60%;
+      transition:transform 500ms;
+    
+
+}
+/*hover on the images */
+.row__poster:hover{
+      transform:scale(1.2);
+      opacity:1;
+      
+}
+
+.row__posterLarge{
+      max-height: 250px
+}
+
+.row__posterLarge:hover{
+      transform:scale(1.2);
+      opacity:1;
+}

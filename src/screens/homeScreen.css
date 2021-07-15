@@ -1,0 +1,9 @@
+/* to prevent the user from selecting text on website */
+body{
+-webkit-user-select:none;
+-moz-user-select:-moz-none;
+-ms-user-select:none;
+user-select:none;
+font-family: sans-serif;
+font-weight: bold;
+}
